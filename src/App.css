@@ -1,38 +1,128 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #fffffc;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container-main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.container-one {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+h1 {
+  font-family: "Lemon", serif;
+  justify-content: center;
+  color: #fcbf49;
+  text-shadow: 0.2vmin 0.2vmin 0 #003049;
+  font-size: calc(15px + 1vmin);
+  padding: 10px;
+}
+
+h2 {
+  align-self: center;
+  font-family: "Lemon", serif;
+  color: #fcbf49;
+  text-shadow: 0.2vmin 0.2vmin 0 #d62828;
+  font-size: calc(15px + 2vmin);
+  padding: 10px;
+}
+
+h3 {
+  font-size: calc(6px + 2vmin);
+  font-family: "Lemon", serif;
+  color: #fcbf49;
+  text-shadow: 0.2vmin 0.2vmin 0 #003049;
+  font-weight: 600;
+}
+
+h4 {
+  font-family: "Lemon", serif;
+  color: #003049;
+  padding: 0.5%;
+}
+
+h5 {
+  font-size: calc(4px + 2vmin);
+  font-family: "Lemon", serif;
+  color: #fcbf49;
+  text-shadow: 0.15vmin 0.15vmin 0 #003049;
+}
+
+p {
+  font-size: calc(2px + 1.5vmin);
+  font-family: "Lemon", serif;
+  margin: 15px;
+  color: #003049;
+}
+
+hr {
+  width: 200px;
+  margin: 20px;
+}
+
+
+.div-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 20px;
+}
+
+.btn-delete {
+  border: none;
+  background: transparent;
+  color: #003049;
+  cursor: pointer;
+}
+
+.delete-all {
+  border: #003049 solid 1px;
+  background-color: #fcbf49;
+  font-family: "Lemon", serif;
+  color: #003049;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+#slider {
+  border-style: solid black 20px;
+  height: 200px;
+}
+
+.div-container-hor {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-slider {
+  color: #003049;
+  border: none;
+  padding: 5px;
+  background-color: #fffffc;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img {
+  border: solid #003049 3px;
+  border-radius: 10%;
+  width: 100%;
 }
