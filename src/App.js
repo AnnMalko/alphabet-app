@@ -76,7 +76,7 @@ function App() {
 
 
             <div className='div-container'>
-              <img id='slider' src={image[0]} width='400px' alt='item' />
+              <img id='slider' src={image[0]}  alt='item' />
             </div>
 
             <div className='div-container-hor'>
