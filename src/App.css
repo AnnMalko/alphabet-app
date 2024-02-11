@@ -129,9 +129,7 @@ img {
 }
 
 @media (max-width: 640px) { 
-.div-container{
-  display: flex;
-  flex-direction: row;
-  display: flex;
-  flex-wrap: wrap;
+  img {
+    max-width:200px;
+  }
 }
