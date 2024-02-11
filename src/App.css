@@ -132,4 +132,8 @@ img {
   img {
     max-width:200px;
   }
+    .container-main, p {
+    display: flex;
+    justify-content: center;
+  }
 }
